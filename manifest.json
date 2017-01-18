@@ -1,0 +1,20 @@
+{
+  "manifest_version": 2,
+
+  "name": "Daily 6 Things",
+  "description": "Todo list for per",
+  "version": "1.0",
+
+  "permissions": [
+    "activeTab",
+    "https://ajax.googleapis.com/"
+  ],
+
+  "chrome_url_overrides" : {
+    "newtab": "daily_index.html"
+  },
+
+  "icons" : {
+    "128": "icon128.png"
+  }
+}

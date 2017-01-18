@@ -1,0 +1,1 @@
+window.location = "http://daily6things.herokuapp.com"
